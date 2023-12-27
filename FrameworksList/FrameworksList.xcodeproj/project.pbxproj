@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5E0A6D2C2B17C48300A00539 /* FrameworksListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D2B2B17C48300A00539 /* FrameworksListApp.swift */; };
-		5E0A6D2E2B17C48300A00539 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D2D2B17C48300A00539 /* ContentView.swift */; };
 		5E0A6D302B17C48600A00539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A6D2F2B17C48600A00539 /* Assets.xcassets */; };
 		5E0A6D332B17C48600A00539 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A6D322B17C48600A00539 /* Preview Assets.xcassets */; };
 		5E0A6D3D2B17C48700A00539 /* FrameworksListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D3C2B17C48700A00539 /* FrameworksListTests.swift */; };
 		5E0A6D472B17C48700A00539 /* FrameworksListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D462B17C48700A00539 /* FrameworksListUITests.swift */; };
 		5E0A6D492B17C48700A00539 /* FrameworksListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D482B17C48700A00539 /* FrameworksListUITestsLaunchTests.swift */; };
+		5E0A6D562B17C52300A00539 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D552B17C52300A00539 /* Framework.swift */; };
+		5E0A6D582B17C67000A00539 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D572B17C67000A00539 /* FrameworkGridView.swift */; };
+		5E0A6D5A2B1903FD00A00539 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D592B1903FD00A00539 /* FrameworkDetailView.swift */; };
+		5E3037072B334FEE000F1808 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */; };
+		5E4BF8092B19079D0048F362 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4BF8082B19079D0048F362 /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		5E0A6D282B17C48300A00539 /* FrameworksList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworksList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0A6D2B2B17C48300A00539 /* FrameworksListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksListApp.swift; sourceTree = "<group>"; };
-		5E0A6D2D2B17C48300A00539 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E0A6D2F2B17C48600A00539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0A6D322B17C48600A00539 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E0A6D382B17C48700A00539 /* FrameworksListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworksListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		5E0A6D422B17C48700A00539 /* FrameworksListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworksListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0A6D462B17C48700A00539 /* FrameworksListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksListUITests.swift; sourceTree = "<group>"; };
 		5E0A6D482B17C48700A00539 /* FrameworksListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E0A6D552B17C52300A00539 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		5E0A6D572B17C67000A00539 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		5E0A6D592B1903FD00A00539 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		5E4BF8082B19079D0048F362 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				5E0A6D2B2B17C48300A00539 /* FrameworksListApp.swift */,
-				5E0A6D2D2B17C48300A00539 /* ContentView.swift */,
+				5E0A6D572B17C67000A00539 /* FrameworkGridView.swift */,
+				5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */,
+				5E0A6D552B17C52300A00539 /* Framework.swift */,
+				5E0A6D592B1903FD00A00539 /* FrameworkDetailView.swift */,
 				5E0A6D2F2B17C48600A00539 /* Assets.xcassets */,
 				5E0A6D312B17C48600A00539 /* Preview Content */,
+				5E4BF8082B19079D0048F362 /* AFButton.swift */,
 			);
 			path = FrameworksList;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0A6D2E2B17C48300A00539 /* ContentView.swift in Sources */,
+				5E0A6D5A2B1903FD00A00539 /* FrameworkDetailView.swift in Sources */,
+				5E0A6D582B17C67000A00539 /* FrameworkGridView.swift in Sources */,
+				5E0A6D562B17C52300A00539 /* Framework.swift in Sources */,
+				5E4BF8092B19079D0048F362 /* AFButton.swift in Sources */,
 				5E0A6D2C2B17C48300A00539 /* FrameworksListApp.swift in Sources */,
+				5E3037072B334FEE000F1808 /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
