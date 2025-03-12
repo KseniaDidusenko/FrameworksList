@@ -18,6 +18,7 @@
 		5E0A6D5A2B1903FD00A00539 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A6D592B1903FD00A00539 /* FrameworkDetailView.swift */; };
 		5E3037072B334FEE000F1808 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */; };
 		5E4BF8092B19079D0048F362 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4BF8082B19079D0048F362 /* AFButton.swift */; };
+		5E8A9F9D2D81FCC300FD1C3C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A9F9C2D81FCC300FD1C3C /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5E0A6D592B1903FD00A00539 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		5E4BF8082B19079D0048F362 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		5E8A9F9C2D81FCC300FD1C3C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		5E0A6D2A2B17C48300A00539 /* FrameworksList */ = {
 			isa = PBXGroup;
 			children = (
+				5E8A9F9C2D81FCC300FD1C3C /* SafariView.swift */,
 				5E0A6D2B2B17C48300A00539 /* FrameworksListApp.swift */,
 				5E0A6D572B17C67000A00539 /* FrameworkGridView.swift */,
 				5E3037062B334FEE000F1808 /* FrameworkGridViewModel.swift */,
@@ -271,6 +274,7 @@
 			files = (
 				5E0A6D5A2B1903FD00A00539 /* FrameworkDetailView.swift in Sources */,
 				5E0A6D582B17C67000A00539 /* FrameworkGridView.swift in Sources */,
+				5E8A9F9D2D81FCC300FD1C3C /* SafariView.swift in Sources */,
 				5E0A6D562B17C52300A00539 /* Framework.swift in Sources */,
 				5E4BF8092B19079D0048F362 /* AFButton.swift in Sources */,
 				5E0A6D2C2B17C48300A00539 /* FrameworksListApp.swift in Sources */,
