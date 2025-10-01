@@ -21,17 +21,21 @@ struct FrameworkDetailView: View {
             
             Spacer()
             
-            Button {
-                isShowingSafariView = true
-            } label: {
-//                AFButton(title: "Learn More")
-                Label("Learn More", systemImage: "book.fill")
+            Link(destination: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!) {
+                AFButton(title: "Learn More")
             }
-            .buttonStyle(.bordered)
-            .controlSize(.large)
-//            .foregroundColor(.yellow)
-//            .buttonBorderShape(.roundedRectangle(radius: 20))
-            .tint(.red)
+            
+//            Button {
+//                isShowingSafariView = true
+//            } label: {
+////                AFButton(title: "Learn More")
+//                Label("Learn More", systemImage: "book.fill")
+//            }
+//            .buttonStyle(.bordered)
+//            .controlSize(.large)
+////            .foregroundColor(.yellow)
+////            .buttonBorderShape(.roundedRectangle(radius: 20))
+//            .tint(.red)
         }
 //        .sheet(isPresented: $isShowingSafariView, content: {
 //            SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
